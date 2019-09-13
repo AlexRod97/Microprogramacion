@@ -1,0 +1,26 @@
+1.	Cuando se genera el archivo obj a partir del archivo “.asm” ¿Qué información nos muestra en consola y qué significa?
+Muestra: 
+"Turbo Assembler Version 2.0 Copyright(c) 1988, 1990 Borland International"
+Assembling file: fileName.asm
+Error messages: None 
+Warning messages: None
+Passes: 1
+Remaining Memory 477k
+
+El significado de esta información es un resumen de lo que se acaba de procesar notificando errores, alertas y espacio disponible.
+
+2.	¿En qué punto se crea el archivo ejecutable?
+En el momento de mandar a llamar el TLINK utilizando el archivo obj
+
+3.	¿Cuál es la interrupción utilizada para imprimir una cadena de caracteres?
+
+La interrupción INT 21h imprime una cadena
+
+4.	¿Cuál es la interrupción para imprimir solamente un caracter?
+
+La interrupción INT 10h imprime una cadena
+
+5.	¿Qué registros entran en juego al ejecutar una interrupción de la serie 21h?
+
+Los registros son: AX, BX, CX, DX, SI, DI, BP, SP.
+
